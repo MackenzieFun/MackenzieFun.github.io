@@ -15,7 +15,7 @@ function setup() {
     cam = createCamera();
     fill(204, 101, 192);
     fnt = loadFont('TwilightFont-Regular.otf');
-    heart = new Heart(0, -50, 80, color(200, 30, 80), 2);
+    heart = new Heart(0, -50, 80, color(200, 30, 80), 5);
     txt = new MSG(-45, -3100, 42, color('white'), "Happy Valentine's Day", fnt);
     txt2 = new MSG(-45, -2900, 36, color('white'), "Love CJ", fnt);
     for (let i = 0; i < 100; i++) {
